@@ -34,7 +34,7 @@ def index_post():
         'Content-type': 'application/json',
         'X-ClientTraceId': str(uuid.uuid4())
     }
-#headers
+
 
     body = [{ 'text': original_text }]
 
